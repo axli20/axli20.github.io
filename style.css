@@ -125,6 +125,7 @@ a:visited {
 .book {
   width: 100%;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .book-description {
@@ -147,7 +148,7 @@ a:visited {
 }
 
 .book-text {
-
+  font-size: 1.5vw;
 }
 
 #half-broke-horses {

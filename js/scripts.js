@@ -1,5 +1,5 @@
 function mOver(obj) {
-  obj.style.color = "#4691d2";
+  obj.style.color = "white";
 }
 
 function mOut(obj) {
