@@ -12,16 +12,16 @@
 
       <div class="menuBar">
 
-        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)" onclick="smoothScroll(document.getElementById('about-me'))">
-          <h1 class="barText">ABOUT ME</h1>
+        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
+          <button class="barText" id="about-me-button">ABOUT ME</button>
         </div>
 
-        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)" onclick="smoothScroll(document.getElementById('adventures'))">
-          <h1 class="barText">ADVENTURES</h1>
+        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
+          <button class="barText" id="adventures-button">ADVENTURES</h1>
         </div>
 
-        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)" onclick="smoothScroll(document.getElementById('bookshelf'))">
-          <h1 class="barText">BOOKSHELF</h1>
+        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
+          <button class="barText" id="bookshelf-button">BOOKSHELF</h1>
         </div>
 
       </div>
@@ -200,45 +200,10 @@
 
     </div>
 
-    <script>
-    function mOver(obj) {
-      obj.style.color = "gray";
-      obj.style.borderBottom = "1px solid gray";
-    }
-
-    function mOut(obj) {
-      obj.style.color = "black";
-      obj.style.borderBottom = "1px solid black";
-    }
-
-    window.smoothScroll = function(target) {
-      var scrollContainer = target;
-      do {
-          scrollContainer = scrollContainer.parentNode;
-          if(!scrollContainer) return;
-          scrollContainer.scrollTop += 1;
-      } while(scrollContainer.scrollTop == 0)
-
-      var targetY = 0;
-      do {
-          if (target == scrollContainer) break;
-          targetY += target.offsetTop;
-      } while(target = target.offsetParent);
-
-      scroll = function(c, a, b, i) {
-        i++; if(i>30) return;
-        c.scrollTop = a + (b-a) / 30 * i;
-        setTimout(function(){scroll(c, a, b, i); }, 20);
-      }
-
-      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-    }
-
-    </script>
 
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
-  
+
 </html>

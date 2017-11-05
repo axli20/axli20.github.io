@@ -45,6 +45,16 @@ body {
   margin-bottom: 0px;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
 .page-heading {
   text-align: center;
   margin-top: 50px;
