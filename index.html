@@ -13,7 +13,7 @@
       <div class="menuBar">
 
         <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
-          <h1 class="barText" >ABOUT ME</h1>
+          <h1 class="barText">ABOUT ME</h1>
         </div>
 
         <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
@@ -28,13 +28,85 @@
 
     </div>
 
+    <div id="about-me">
+
+      <div class="page-heading">
+        <div class="page-heading-box">
+          <h1 class="barText">ABOUT ME</h1>
+        </div>
+      </div>
+
+      <div id="profile">
+        <img id="propic" src="images/propic.jpg" alt="Picture of Angela">
+        <div id="profile-text-container">
+
+          <div class="profile-text">
+            I AM A STUDENT AT DARTMOUTH COLLEGE, MAJORING IN<br>
+            COMPUTER SCIENCE, AND MINORING IN EARTH SCIENCE.
+          </div>
+
+          <div class="profile-text">
+            MY HOMETOWN IS INDIANAPOLIS, INDIANA.
+          </div>
+
+          <div class="profile-text">
+            MY BIGGEST PASSIONS ARE SPENDING TIME IN THE<br>
+            OUTDOORS, READING CLASSICS, AND PLAYING MUSIC.
+          </div>
+
+          <div class="profile-text">
+            AS A DEVELOPER, I AM PROFICIENT IN JAVA AND PYTHON,<br>
+            AND FAMILIAR WITH REACT-NATIVE, PHP, AND MYSQL.
+          </div>
+
+          <div id="links">
+            <a href="https://www.linkedin.com/in/angela-li-4a69b4141/" target="_blank">
+              <img id="linkedin" src="images/linkedin.png">
+            </a>
+
+            <a href="https://github.com/axli20" target="_blank">
+              <img id="github" src="images/github.png">
+            </a>
+
+            <a href="https://www.facebook.com/angela.li.52056" target="_blank">
+              <img id="facebook" src="images/facebook.png">
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="adventures">
+
+      <div class="page-heading">
+        <div class="page-heading-box">
+          <h1 class="barText">ADVENTURES</h1>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="bookshelf">
+
+      <div class="page-heading">
+        <div class="page-heading-box">
+          <h1 class="barText">BOOKSHELF</h1>
+        </div>
+      </div>
+
+    </div>
+
     <script>
     function mOver(obj) {
       obj.style.color = "gray";
+      obj.style.borderBottom = "1px solid gray";
     }
 
     function mOut(obj) {
-      obj.style.color = "black"
+      obj.style.color = "black";
+      obj.style.borderBottom = "1px solid black";
     }
     </script>
 
