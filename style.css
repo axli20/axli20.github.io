@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  background-color: #ecd9c6;
+}
+
+#homepage {
+  max-width: 100%;
+  min-width: 50%;
+}
+
+#mountain {
+  max-width: 100%;
+  min-width: 50%;
+}
+
+.image-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: white;
+  font-size: 3.5vw;
+  font-family: "maxwell";
+  font-weight: lighter;
+  border-bottom: 1px solid white;
+}
+
+.menuBar {
+  /*margin-left: 10vw;*/
+  text-align: center;
+  /*width: 80%;*/
+}
+
+.barElement {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+.barText {
+  font-size: 4vw;
+  font-family: "maxwell";
+  font-weight: lighter;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
