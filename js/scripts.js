@@ -1,11 +1,9 @@
 function mOver(obj) {
-  obj.style.color = "gray";
-  obj.style.borderBottom = "1px solid gray";
+  obj.style.color = "#4691d2";
 }
 
 function mOut(obj) {
   obj.style.color = "black";
-  obj.style.borderBottom = "1px solid black";
 }
 
 $(document).ready(function() {
