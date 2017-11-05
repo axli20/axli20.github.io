@@ -2,9 +2,41 @@
 <html>
   <head>
     <title>angelali.me</title>
+    <link rel="stylesheet" type="text/css" href="style.css"
   </head>
 
   <body>
-    My Webpage
+    <div id="homepage">
+      <img id="mountain" src="images/mount_washington.jpg" alt="Mount Washingtion" style:"width:500px;height:auto;">
+      <div class="image-text">ANGELA LI</div>
+
+      <div class="menuBar">
+
+        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
+          <h1 class="barText" >ABOUT ME</h1>
+        </div>
+
+        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
+          <h1 class="barText">ADVENTURES</h1>
+        </div>
+
+        <div class="barElement" onmouseover="mOver(this)" onmouseout="mOut(this)">
+          <h1 class="barText">BOOKSHELF</h1>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script>
+    function mOver(obj) {
+      obj.style.color = "gray";
+    }
+
+    function mOut(obj) {
+      obj.style.color = "black"
+    }
+    </script>
+
   </body>
 </html>
