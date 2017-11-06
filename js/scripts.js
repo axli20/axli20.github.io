@@ -25,4 +25,21 @@ $(document).ready(function() {
             'slow');
     })
 
+    // var visible = true;
+    //
+    // $("#rando").click(function(){
+    //   if(visible == true){
+    //     $("#home").css("visibility", "hidden");
+    //     visible = false;
+    //   }
+    //   else {
+    //     $("#home").css("visibility", "visible");
+    //     visible = true;
+    //   }
+    // })
+
+    $("#rando").click(function(){
+        $("#dartmouth").toggle(100);
+    });
+
 });

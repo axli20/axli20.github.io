@@ -72,13 +72,15 @@ button:focus {
 }
 
 #propic {
+  border-radius: 20px;
+  border: 2px solid white;
   max-width: 23%;
   margin-left: 10%;
   display: inline-block;
 }
 
 .page-container {
-  margin-top: 2%;
+  /*margin-top: 2%;*/
   float: right;
   margin-left: 3%;
   margin-right: 10%;
@@ -144,52 +146,80 @@ a:visited {
 }
 
 .book-author {
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-bottom: 5%;
 }
 
 .book-text {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
 }
 
 #half-broke-horses {
-  margin-left: 30%;
+  margin-left: 20%;
   display: inline-block;
-  width: 15%;
+  width: 18%;
 }
 
 #east-of-eden {
-  margin-left: 30%;
+  margin-left: 20%;
   display: inline-block;
-  width: 15%;
+  width: 18%;
 }
 
 #infinite-jest {
-  margin-left: 30%;
+  margin-left: 20%;
   display: inline-block;
-  width: 15%;
+  width: 18%;
 }
 
 #jane-eyre {
-  margin-left: 30%;
+  margin-left: 20%;
   display: inline-block;
-  width: 15%;
+  width: 18%;
 }
 
 #pride-and-prejudice {
-  margin-left: 30%;
+  margin-left: 20%;
   display: inline-block;
-  width: 15%;
+  width: 18%;
 }
 
 #sand-county-almanac {
-  margin-left: 30%;
+  margin-left: 20%;
   display: inline-block;
-  width: 15%;
+  width: 18%;
 }
 
 #map {
-  max-width: 40%;
+  max-width: 30%;
   margin-left: 8%;
   display: inline-block;
+}
+
+#adventure-photo-container {
+  margin-left: 0;
+  max-width: 40%;
+}
+
+.parent{
+  width: 500px;
+  height: 200px;
+}
+
+.child {
+  max-width: 80%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+#dartmouth {
+  float: right;
+}
+
+#acadia {
+  float: right;
+}
+
+#pickledish {
+  float: right;
 }
