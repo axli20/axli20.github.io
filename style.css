@@ -302,6 +302,7 @@ a:visited {
 }
 
 .image-description {
+  width: 80%;
   font-family: "maxwell";
   font-size: 2vw;
   text-align: center;
