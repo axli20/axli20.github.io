@@ -24,4 +24,5 @@ $(document).ready(function() {
             scrollTop: $("#bookshelf").offset().top},
             'slow');
     })
+
 });
