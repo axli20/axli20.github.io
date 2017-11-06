@@ -229,10 +229,20 @@ a:visited {
   cursor: pointer;
 }
 
+.dot-name {
+  position: absolute;
+  font-family: "maxwell";
+  font-size: 20pt;
+}
+
 #num1 {
   top: 0;
   left: 160px;
-  opacity: 1;
+}
+
+#name1 {
+  top: 10px;
+  left: 100px;
 }
 
 #num2 {
@@ -240,9 +250,19 @@ a:visited {
   left: 118px;
 }
 
+#name2 {
+  top: 395px;
+  left: 178px;
+}
+
 #num3 {
   top: 610px;
   left: 202px;
+}
+
+#name3 {
+  top: 600px;
+  left: 30px;
 }
 
 #num4 {
@@ -250,9 +270,19 @@ a:visited {
   left: 96px;
 }
 
+#name4 {
+  top: 860px;
+  left: 20px;
+}
+
 #num5 {
   top: 960px;
   left: 300px;
+}
+
+#name5 {
+  top: 970px;
+  left: 180px;
 }
 
 #num6 {
@@ -260,10 +290,20 @@ a:visited {
   left: 98px;
 }
 
+#name6 {
+  top: 1240px;
+  left: 180px;
+}
+
 #adventure-photo-container {
   position: relative;
   margin-left: 0;
   max-width: 40%;
+}
+
+.image-description {
+  font-family: "maxwell";
+  font-size: 2vw;
 }
 
 .parent{
