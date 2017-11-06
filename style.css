@@ -304,6 +304,7 @@ a:visited {
 .image-description {
   font-family: "maxwell";
   font-size: 2vw;
+  text-align: center;
 }
 
 .parent{
