@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'maxwell';
+  src: url('fonts/MAXWELL_LIGHT.eot'); /* IE 5-8 */
+  src: local('☺'),             /* sneakily trick IE */
+        url('fonts/MAXWELL_LIGHT.woff') format('woff'),    /* FF 3.6, Chrome 5, IE9 */
+        url('fonts/MAXWELL_LIGHT.ttf') format('truetype'), /* Opera, Safari */
+        url('fonts/MAXWELL_LIGHT.svg#font') format('svg'); /* iOS */
+}
+
 body {
   margin: 0px;
   background-color: #d9b18c;
@@ -190,13 +199,69 @@ a:visited {
   width: 18%;
 }
 
-#map {
+.image-parent {
   max-width: 30%;
   margin-left: 8%;
   display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.hover {
+  margin-top: 1%;
+  font-family: "maxwell";
+  font-weight: lighter;
+  font-size: 2vw;
+}
+
+#map {
+  position: relative;
+  top: 0;
+  lef: 0;
+}
+
+.dot {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#num1 {
+  top: 0;
+  left: 160px;
+  opacity: 1;
+}
+
+#num2 {
+  top: 385px;
+  left: 118px;
+}
+
+#num3 {
+  top: 610px;
+  left: 202px;
+}
+
+#num4 {
+  top: 839px;
+  left: 96px;
+}
+
+#num5 {
+  top: 960px;
+  left: 300px;
+}
+
+#num6 {
+  top: 1240px;
+  left: 98px;
 }
 
 #adventure-photo-container {
+  position: relative;
   margin-left: 0;
   max-width: 40%;
 }
